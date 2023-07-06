@@ -30,8 +30,8 @@ function createTask() {
                 this.parentNode.removeChild();
             }
         }
-       ?taskSection.offsetHeight.add("overflow")
-       : taskSection.classList.remove("overflow");
+        taskSection.offsetHeight.add("overflow")
+        taskSection.classList.remove("overflow");
     }
 }
 function updateTask(task) {
